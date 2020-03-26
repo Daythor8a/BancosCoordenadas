@@ -1,0 +1,9 @@
+spring:
+  data:
+    mongodb:
+      database: Bancos-SIT
+      host: localhost
+      port: 27017
+
+controller:
+  uri: /api/v1/bancos/coordenadas

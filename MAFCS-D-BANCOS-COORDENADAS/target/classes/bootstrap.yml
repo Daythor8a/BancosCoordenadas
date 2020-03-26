@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: MAFCS-D-BANCOS-COORDENADAS
+  config:
+    name: ${spring.application.name}
+  profiles:
+    active:
+    - SIT
+
+server:
+  port: 8086
